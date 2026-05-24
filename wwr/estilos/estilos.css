@@ -1,0 +1,101 @@
+:root{
+    --primary-color:#1b4965;
+    --secondary-color:#62b6cb;
+    --accent-color:#cae9ff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+header{
+    display:grid;
+    grid-template-columns:200px auto;
+    align-items:center;
+    background:#cae9ff;
+    padding:20px;
+}
+
+header img{
+    width:120px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero img{
+    display:block;
+    width:100%;
+}
+
+.hero h1{
+    position:absolute;
+    top:30px;
+    width:100%;
+    text-align:center;
+    color:white;
+    background:rgba(0,0,0,.5);
+    padding:20px;
+}
+
+article{
+    position:absolute;
+    bottom:40px;
+    left:30px;
+    right:30px;
+    background:rgba(255,255,255,.8);
+    padding:20px;
+}
+
+article img{
+    float:right;
+    width:150px;
+    margin-left:15px;
+}
+
+section{
+    padding:30px;
+    text-align:center;
+}
+
+.aventuras{
+    display:flex;
+    justify-content:space-around;
+    gap:10px;
+}
+
+figure img{
+    width:180px;
+    height:120px;
+    object-fit:cover;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#cae9ff;
+    padding:20px;
+}
+
+.social img{
+    width:35px;
+}
