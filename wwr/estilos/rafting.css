@@ -14,7 +14,7 @@ box-sizing:border-box;
 
 body{
 font-family:var(--body-font);
-background-color: var(--secondary-color);
+background-color:var(--secondary-color);
 }
 
 header,
@@ -25,11 +25,12 @@ margin:0 auto;
 }
 
 header{
-    display:grid;
-    grid-template-columns:200px auto;
-    align-items:center;
-    background-color:#1b4965;
-    padding:20px;
+display:grid;
+grid-template-columns:200px auto;
+align-items:center;
+background-color:#1b4965;
+padding:20px;
+color:white;
 }
 
 header img{
@@ -42,9 +43,9 @@ justify-content:space-evenly;
 }
 
 nav a{
-    text-decoration:none;
-    color:white;
-    font-weight:bold;
+text-decoration:none;
+color:white;
+font-weight:bold;
 }
 
 .hero{
@@ -87,12 +88,17 @@ section{
 margin:20px 0;
 padding:16px;
 text-align:center;
+background-color:white;
 }
 
-h1,
+h1{
+font-family:var(--heading-font);
+color:white;
+}
+
 h2{
 font-family:var(--heading-font);
-color:var(--primary-color);
+color:black;
 }
 
 .history{
@@ -127,6 +133,7 @@ border-radius:8px;
 margin-top:5px;
 font-weight:bold;
 font-size:0.9rem;
+color:black;
 }
 
 footer{
@@ -135,6 +142,10 @@ justify-content:space-between;
 align-items:center;
 background-color:var(--accent-color);
 padding:20px;
+}
+
+footer p{
+color:black;
 }
 
 .redes-sociais a{
