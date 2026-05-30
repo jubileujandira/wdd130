@@ -43,7 +43,7 @@ justify-content:space-evenly;
 
 nav a{
 text-decoration:none;
-color:var(--primary-color);
+color:white;
 font-weight:bold;
 }
 
