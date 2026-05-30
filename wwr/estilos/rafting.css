@@ -14,7 +14,7 @@ box-sizing:border-box;
 
 body{
 font-family:var(--body-font);
-color:var(--primary-color);
+background-color: var(--secondary-color);
 }
 
 header,
@@ -25,11 +25,11 @@ margin:0 auto;
 }
 
 header{
-display:grid;
-grid-template-columns:200px auto;
-align-items:center;
-background-color:var(--secondary-color);
-padding:20px;
+    display:grid;
+    grid-template-columns:200px auto;
+    align-items:center;
+    background-color:#1b4965;
+    padding:20px;
 }
 
 header img{
@@ -42,9 +42,9 @@ justify-content:space-evenly;
 }
 
 nav a{
-text-decoration:none;
-color:#000000;
-font-weight:bold;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
 }
 
 .hero{
