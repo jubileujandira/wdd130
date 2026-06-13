@@ -28,25 +28,26 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 150px 1fr;
     align-items: center;
     background-color: var(--primary-color);
     padding: 20px;
 }
-
 header img {
     width: 120px;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px;
 }
 
 nav a:hover {
